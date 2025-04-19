@@ -1,0 +1,1 @@
+This is a new file. Welcome to file handling with Esther. This is a competely new concept.
