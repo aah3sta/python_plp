@@ -1,2 +1,1 @@
-he item: "))
-discount_percentage = float(input("Enter 
+discount_percentage = float(input("Enter the item: "))
