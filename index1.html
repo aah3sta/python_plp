@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Webpage Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    audio, video {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 15px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    input, select {
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #666;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My Multimedia-Rich Webpage</h1>
+
+    <!-- Multimedia Section -->
+    <h2>Audio and Video</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/dGbkrSBa7Uw?si=foSo6sJI9vpKPUFR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Image Embed -->
+    <h2>Embedded Image</h2>
+    <img src="../webdevw1/aiesec aang.jpg" alt="Sample Image" style="width:100%; border-radius: 10px;">
+
+    <!-- Table Embed -->
+    <h2>Sample Table</h2>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Duration</th>
+        <th>Instructor</th>
+      </tr>
+      <tr>
+        <td>HTML & CSS</td>
+        <td>4 Weeks</td>
+        <td>Jane Doe</td>
+      </tr>
+      <tr>
+        <td>JavaScript Basics</td>
+        <td>6 Weeks</td>
+        <td>John Smith</td>
+      </tr>
+    </table>
+
+    <!-- Registration Form with Validation -->
+    <h2>Registration Form</h2>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="100" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">--Select--</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+      </select>
+
+      <input type="submit" value="Register">
+    </form>
+
+    <!-- Lists -->
+    <h2>Course Topics</h2>
+    <ol>
+      <li>Introduction to Web Development</li>
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>Forms and Validation</li>
+    </ol>
+
+    <h2>Tools Needed</h2>
+    <ul>
+      <li>Text Editor (VS Code, Sublime)</li>
+      <li>Web Browser</li>
+      <li>Basic Internet Connection</li>
+    </ul>
+  </div>
+</body>
+</html>
