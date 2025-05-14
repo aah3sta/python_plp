@@ -1,0 +1,49 @@
+/* Element selector */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector */
+#main-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #357ABD;
+}
+
+/* Class selector */
+.title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.featured-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+  border: 5px solid #4a90e2;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+.footer-text {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #333;
+  color: #fff;
+}
